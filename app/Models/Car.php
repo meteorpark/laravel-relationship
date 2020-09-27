@@ -6,19 +6,20 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class User
+ * Class Car
  * @package App\Models
  */
-class User extends Model
+class Car extends Model
 {
     use HasFactory;
 
     /**
      * @var string
      */
-    protected $primaryKey = 'user_id';
+    protected $primaryKey = 'car_id';
     /**
      * @var string[]
      */
-    protected $guarded = ['user_id'];
+    protected $guarded = ['car_id'];
+
 }
